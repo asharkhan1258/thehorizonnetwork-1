@@ -1,0 +1,305 @@
+/* =====================================
+   SEO AUDIT PAGE
+===================================== */
+
+.seo-page {
+    background: #050505;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.seo-highlight {
+    color: #8b5cf6;
+}
+
+
+/* HERO */
+
+.seo-hero {
+    background: #070707;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.seo-hero-title {
+    color: #ffffff;
+    font-size: clamp(45px, 7vw, 88px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -3px;
+}
+
+
+/* INTRO */
+
+.seo-intro-section {
+    background: #050505;
+}
+
+.seo-main-heading {
+    color: #ffffff;
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -2px;
+}
+
+.seo-paragraph {
+    color: #959595;
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+.seo-discuss-btn {
+    color: #050505;
+    background: #8b5cf6;
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.seo-section-heading {
+    color: #ffffff;
+    font-size: clamp(30px, 4vw, 50px);
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.seo-strong {
+    color: #ffffff;
+}
+
+
+/* HUMAN AI */
+
+.seo-feature-card {
+    background: #0d0d0d;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 30px;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.seo-feature-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(139, 92, 246, 0.5);
+}
+
+.seo-feature-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: rgba(139, 92, 246, 0.1);
+    color: #8b5cf6;
+    font-size: 21px;
+}
+
+.seo-feature-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.seo-feature-text {
+    color: #929292;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* IMAGE */
+
+.seo-image-box {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.seo-main-image {
+    border-radius: 20px;
+}
+
+
+/* WHAT'S INCLUDED */
+
+.seo-included-section {
+    background: #090909;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.seo-large-heading {
+    color: #ffffff;
+    font-size: clamp(38px, 5vw, 65px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+
+.seo-process-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.seo-process-item {
+    background: #0d0d0d;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 22px;
+}
+
+.seo-process-number {
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(139, 92, 246, 0.1);
+    color: #8b5cf6;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.seo-process-title {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.seo-process-text {
+    color: #909090;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* CHECK ITEMS */
+
+.seo-check-card {
+    background: #0d0d0d;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    padding: 22px;
+}
+
+.seo-check-icon {
+    color: #8b5cf6;
+    font-size: 20px;
+}
+
+.seo-check-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+
+/* CONTACT */
+
+.seo-contact-section {
+    background: #050505;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.seo-contact-heading {
+    color: #ffffff;
+    font-size: clamp(38px, 5vw, 65px);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -2px;
+}
+
+.seo-contact-item {
+    background: #0d0d0d;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.seo-contact-icon {
+    min-width: 48px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(139, 92, 246, 0.1);
+    border-radius: 12px;
+    color: #8b5cf6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.seo-contact-title {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.seo-contact-title-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.seo-contact-value {
+    color: #858585;
+    font-size: 14px;
+}
+
+
+/* FORM */
+
+.seo-form-box {
+    background: #0d0d0d;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.seo-form-control {
+    background: #080808 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+    padding: 14px 16px !important;
+    box-shadow: none !important;
+}
+
+.seo-form-control::placeholder {
+    color: #707070;
+}
+
+.seo-form-control:focus {
+    background: #080808 !important;
+    border-color: #8b5cf6 !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.seo-form-textarea {
+    resize: vertical;
+}
+
+.seo-submit-btn {
+    border: 0;
+    background: #8b5cf6;
+    color: #050505;
+    border-radius: 9px;
+    padding: 14px 24px;
+    font-size: 14px;
+    font-weight: 800;
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
+}
+
+.seo-submit-btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}

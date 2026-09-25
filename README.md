@@ -1,1 +1,1 @@
-# thehorizonnetwork-1
+# thehorizonnetwork

@@ -1,0 +1,357 @@
+/* =====================================
+   WHY SWITCH PAGE
+===================================== */
+
+.why-page {
+    background: #050505;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+
+/* =====================================
+   HERO
+===================================== */
+
+.why-hero {
+    background:
+        linear-gradient(
+            135deg,
+            #040404 0%,
+            #101010 50%,
+            #050505 100%
+        );
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.why-hero-content {
+    width: 100%;
+}
+
+.why-hero-title {
+    color: #ffffff;
+    font-size: clamp(48px, 8vw, 100px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -4px;
+}
+
+.why-highlight {
+    color: #8b5cf6;
+}
+
+
+/* =====================================
+   STATS
+===================================== */
+
+.why-stats-section {
+    background: #080808;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.why-stat-link {
+    display: block;
+    height: 100%;
+}
+
+.why-stat-card {
+    background: #0c0c0c;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 25px 18px;
+    text-align: center;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease;
+}
+
+.why-stat-card:hover {
+    transform: translateY(-6px);
+    background: #111111;
+    border-color: rgba(139, 92, 246, 0.55);
+}
+
+.why-stat-icon {
+    color: #8b5cf6;
+    font-size: 22px;
+}
+
+.why-stat-label {
+    color: #969696;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.why-stat-value {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+/* =====================================
+   AGENCY
+===================================== */
+
+.why-agency-section {
+    background: #050505;
+}
+
+.why-section-label {
+    color: #8b5cf6;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.why-main-heading {
+    color: #ffffff;
+    font-size: clamp(40px, 6vw, 75px);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -3px;
+}
+
+.why-main-text {
+    color: #989898;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.why-section-heading {
+    color: #ffffff;
+    font-size: clamp(32px, 4.5vw, 58px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -2px;
+}
+
+.why-danger-text {
+    color: #ff5656;
+}
+
+
+/* =====================================
+   RED FLAGS
+===================================== */
+
+.why-red-card {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 67, 67, 0.07),
+            #0b0b0b
+        );
+    border: 1px solid rgba(255, 86, 86, 0.15);
+    border-radius: 20px;
+    padding: 32px;
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        background 0.35s ease;
+}
+
+.why-red-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(255, 86, 86, 0.65);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 67, 67, 0.12),
+            #0e0e0e
+        );
+}
+
+.why-red-icon {
+    color: #ff5656;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.why-red-title {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.why-red-text {
+    color: #939393;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =====================================
+   COMPARISON
+===================================== */
+
+.why-comparison-section {
+    background: #090909;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.why-muted-vs {
+    color: #565656;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.why-table-wrapper {
+    background: #0c0c0c;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 20px;
+}
+
+.why-table {
+    --bs-table-bg: transparent;
+    --bs-table-color: #ffffff;
+    min-width: 760px;
+}
+
+.why-table-head {
+    background: #101010;
+}
+
+.why-table-header {
+    color: #868686 !important;
+    background: #101010 !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    padding: 22px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.why-table-center {
+    text-align: center;
+}
+
+.why-traditional-heading {
+    color: #ef7171 !important;
+}
+
+.why-horizon-heading {
+    color: #8b5cf6 !important;
+}
+
+.why-table-row {
+    transition: background 0.3s ease;
+}
+
+.why-table-body .why-table-row:hover {
+    background: rgba(255, 255, 255, 0.035);
+}
+
+.why-table-title {
+    color: #ffffff !important;
+    background: transparent !important;
+    border-color: rgba(255, 255, 255, 0.07) !important;
+    padding: 22px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.why-table-old {
+    color: #6e6e6e !important;
+    background: transparent !important;
+    border-color: rgba(255, 255, 255, 0.07) !important;
+    padding: 22px;
+    font-size: 14px;
+}
+
+.why-table-new {
+    color: #ffffff !important;
+    background: transparent !important;
+    border-color: rgba(255, 255, 255, 0.07) !important;
+    padding: 22px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* =====================================
+   MIGRATION
+===================================== */
+
+.why-migration-section {
+    background:
+        linear-gradient(
+            180deg,
+            #050505,
+            #090909
+        );
+}
+
+.why-protocol-link {
+    display: block;
+    height: 100%;
+}
+
+.why-protocol-card {
+    background: #0c0c0c;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 20px;
+    padding: 32px;
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        background 0.35s ease;
+}
+
+.why-protocol-card:hover {
+    transform: translateY(-8px);
+    background: #101010;
+    border-color: rgba(139, 92, 246, 0.55);
+}
+
+.why-protocol-number {
+    color: #5b5b5b;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.why-protocol-icon {
+    color: #8b5cf6;
+    font-size: 28px;
+}
+
+.why-protocol-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.why-protocol-text {
+    color: #909090;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =====================================
+   ANIMATION
+===================================== */
+
+.why-animation {
+    animation: whyFadeUp 0.85s ease both;
+}
+
+@keyframes whyFadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}

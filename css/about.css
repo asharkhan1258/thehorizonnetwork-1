@@ -1,0 +1,243 @@
+.about-page {
+    background: #050505;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.about-page-hero {
+    background:
+        linear-gradient(135deg, #050505, #101010, #070707);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-page-title {
+    color: #ffffff;
+    font-size: clamp(42px, 7vw, 82px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.about-highlight {
+    color: #8b5cf6;
+}
+
+.about-breadcrumb {
+    color: #949494;
+    font-size: 15px;
+}
+
+.about-breadcrumb-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.about-breadcrumb-link:hover {
+    color: #8b5cf6;
+}
+
+.about-breadcrumb-icon {
+    color: #8b5cf6;
+    font-size: 12px;
+}
+
+.about-breadcrumb-current {
+    color: #9b9b9b;
+}
+
+.about-strategy-section {
+    background: #080808;
+}
+
+.about-small-title {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-main-heading {
+    color: #ffffff;
+    font-size: clamp(38px, 5vw, 70px);
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.about-text {
+    color: #9b9b9b;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.about-strong-text {
+    color: #ffffff;
+}
+
+.about-section-heading {
+    color: #ffffff;
+    font-size: clamp(30px, 4vw, 50px);
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.about-feature-card {
+    background: #0d0d0d;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 35px;
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        background 0.35s ease;
+}
+
+.about-feature-card:hover {
+    transform: translateY(-8px);
+    background: #111111;
+    border-color: rgba(139, 92, 246, 0.55);
+}
+
+.about-feature-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(139, 92, 246, 0.1);
+    color: #8b5cf6;
+    font-size: 22px;
+}
+
+.about-feature-title {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.about-feature-text {
+    color: #979797;
+    line-height: 1.7;
+}
+
+.about-operations-box {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(139, 92, 246, 0.08),
+            rgba(255, 255, 255, 0.02)
+        );
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.about-operations-heading {
+    color: #ffffff;
+    font-size: clamp(32px, 4vw, 52px);
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.about-evolution-section {
+    background: #050505;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.about-section-label {
+    color: #8b5cf6;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.about-timeline-card {
+    background: #0c0c0c;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 30px;
+    transition: 0.35s ease;
+}
+
+.about-timeline-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(139, 92, 246, 0.45);
+}
+
+.about-timeline-year {
+    color: #63dfed;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.about-timeline-year-pink {
+    color: #e566db;
+}
+
+.about-timeline-year-white {
+    color: #ffffff;
+}
+
+.about-timeline-title {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.about-timeline-text {
+    color: #909090;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.about-tech-card {
+    background: #0c0c0c;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 25px;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.about-tech-card:hover {
+    transform: translateY(-6px);
+    border-color: #8b5cf6;
+}
+
+.about-tech-icon {
+    color: #8b5cf6;
+    font-size: 25px;
+}
+
+.about-tech-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-tech-text {
+    color: #6f6f6f;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.about-reveal {
+    animation: aboutFadeUp 0.8s ease both;
+}
+
+@keyframes aboutFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
