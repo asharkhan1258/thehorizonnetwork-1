@@ -812,7 +812,7 @@ body {
 .service-hero,
 .price-hero,
 .refund-hero,
-.seo-hero,
+.service-detail-hero,
 .why-hero,
 .contact-hero {
   position: relative;
@@ -830,7 +830,7 @@ body {
 .service-hero::after,
 .price-hero::after,
 .refund-hero::after,
-.seo-hero::after,
+.service-detail-hero::after,
 .why-hero::after,
 .contact-hero::after {
   content: "";
@@ -849,7 +849,7 @@ body {
 .service-highlight,
 .why-highlight,
 .refund-highlight,
-.seo-highlight,
+.service-detail-highlight,
 .about-highlight,
 .why-footer-highlight {
   background: linear-gradient(90deg, #63b0ff, #9b6dff);
@@ -865,7 +865,7 @@ body {
 .agency-panel,
 .final-cta,
 .service-card,
-.seo-feature-card,
+.service-detail-feature-card,
 .about-card,
 .refund-card,
 .why-card,
@@ -881,7 +881,7 @@ body {
 .mini-card:hover,
 .testimonial-card:hover,
 .service-card:hover,
-.seo-feature-card:hover {
+.service-detail-feature-card:hover {
   transform: translateY(-7px);
   border-color: rgba(77,163,255,.38) !important;
   box-shadow: 0 28px 75px rgba(0,0,0,.36), 0 0 0 1px rgba(139,92,246,.08);
@@ -892,7 +892,7 @@ body {
 .contact-icon,
 .avatar-placeholder,
 .service-card-icon,
-.seo-feature-icon {
+.service-detail-feature-icon {
   background: linear-gradient(135deg, rgba(77,163,255,.13), rgba(139,92,246,.13)) !important;
   border-color: rgba(105,126,255,.28) !important;
   color: #7bbcff !important;
@@ -901,7 +901,7 @@ body {
 .section-soft,
 .service-list-section,
 .price-section,
-.seo-intro-section,
+.service-detail-intro-section,
 .refund-main-section {
   background: #07080d !important;
 }
@@ -920,7 +920,7 @@ body {
 
 /* Stronger visual rhythm without changing page copy */
 section, .section-space, .section-space-sm { position: relative; }
-.feature-card, .mini-card, .testimonial-card, .service-card, .seo-feature-card {
+.feature-card, .mini-card, .testimonial-card, .service-card, .service-detail-feature-card {
   padding-top: clamp(1.35rem, 2.2vw, 2rem);
 }
 

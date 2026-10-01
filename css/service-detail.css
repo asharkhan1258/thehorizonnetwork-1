@@ -1,26 +1,26 @@
 /* =====================================
-   SEO AUDIT PAGE
+   SERVICE DETAIL PAGE
 ===================================== */
 
-.seo-page {
+.service-detail-page {
     background: #050505;
     color: #ffffff;
     overflow: hidden;
 }
 
-.seo-highlight {
+.service-detail-highlight {
     color: #8b5cf6;
 }
 
 
 /* HERO */
 
-.seo-hero {
+.service-detail-hero {
     background: #070707;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.seo-hero-title {
+.service-detail-hero-title {
     color: #ffffff;
     font-size: clamp(45px, 7vw, 88px);
     font-weight: 800;
@@ -31,11 +31,11 @@
 
 /* INTRO */
 
-.seo-intro-section {
+.service-detail-intro-section {
     background: #050505;
 }
 
-.seo-main-heading {
+.service-detail-main-heading {
     color: #ffffff;
     font-size: clamp(36px, 5vw, 64px);
     font-weight: 800;
@@ -43,13 +43,13 @@
     letter-spacing: -2px;
 }
 
-.seo-paragraph {
+.service-detail-paragraph {
     color: #959595;
     font-size: 16px;
     line-height: 1.85;
 }
 
-.seo-discuss-btn {
+.service-detail-discuss-btn {
     color: #050505;
     background: #8b5cf6;
     text-decoration: none;
@@ -58,21 +58,21 @@
     font-weight: 700;
 }
 
-.seo-section-heading {
+.service-detail-section-heading {
     color: #ffffff;
     font-size: clamp(30px, 4vw, 50px);
     font-weight: 800;
     line-height: 1.1;
 }
 
-.seo-strong {
+.service-detail-strong {
     color: #ffffff;
 }
 
 
 /* HUMAN AI */
 
-.seo-feature-card {
+.service-detail-feature-card {
     background: #0d0d0d;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 18px;
@@ -82,12 +82,12 @@
         border-color 0.3s ease;
 }
 
-.seo-feature-card:hover {
+.service-detail-feature-card:hover {
     transform: translateY(-6px);
     border-color: rgba(139, 92, 246, 0.5);
 }
 
-.seo-feature-icon {
+.service-detail-feature-icon {
     width: 55px;
     height: 55px;
     display: flex;
@@ -99,13 +99,13 @@
     font-size: 21px;
 }
 
-.seo-feature-title {
+.service-detail-feature-title {
     color: #ffffff;
     font-size: 22px;
     font-weight: 700;
 }
 
-.seo-feature-text {
+.service-detail-feature-text {
     color: #929292;
     font-size: 15px;
     line-height: 1.8;
@@ -114,24 +114,24 @@
 
 /* IMAGE */
 
-.seo-image-box {
+.service-detail-image-box {
     border-radius: 20px;
     overflow: hidden;
 }
 
-.seo-main-image {
+.service-detail-main-image {
     border-radius: 20px;
 }
 
 
 /* WHAT'S INCLUDED */
 
-.seo-included-section {
+.service-detail-included-section {
     background: #090909;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.seo-large-heading {
+.service-detail-large-heading {
     color: #ffffff;
     font-size: clamp(38px, 5vw, 65px);
     font-weight: 800;
@@ -139,20 +139,20 @@
     letter-spacing: -2px;
 }
 
-.seo-process-heading {
+.service-detail-process-heading {
     color: #ffffff;
     font-size: 30px;
     font-weight: 700;
 }
 
-.seo-process-item {
+.service-detail-process-item {
     background: #0d0d0d;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
     padding: 22px;
 }
 
-.seo-process-number {
+.service-detail-process-number {
     min-width: 45px;
     height: 45px;
     display: flex;
@@ -165,13 +165,13 @@
     font-weight: 800;
 }
 
-.seo-process-title {
+.service-detail-process-title {
     color: #ffffff;
     font-size: 19px;
     font-weight: 700;
 }
 
-.seo-process-text {
+.service-detail-process-text {
     color: #909090;
     font-size: 14px;
     line-height: 1.7;
@@ -180,19 +180,19 @@
 
 /* CHECK ITEMS */
 
-.seo-check-card {
+.service-detail-check-card {
     background: #0d0d0d;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 15px;
     padding: 22px;
 }
 
-.seo-check-icon {
+.service-detail-check-icon {
     color: #8b5cf6;
     font-size: 20px;
 }
 
-.seo-check-text {
+.service-detail-check-text {
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
@@ -202,12 +202,12 @@
 
 /* CONTACT */
 
-.seo-contact-section {
+.service-detail-contact-section {
     background: #050505;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
 }
 
-.seo-contact-heading {
+.service-detail-contact-heading {
     color: #ffffff;
     font-size: clamp(38px, 5vw, 65px);
     font-weight: 800;
@@ -215,14 +215,14 @@
     letter-spacing: -2px;
 }
 
-.seo-contact-item {
+.service-detail-contact-item {
     background: #0d0d0d;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 15px;
     padding: 18px;
 }
 
-.seo-contact-icon {
+.service-detail-contact-icon {
     min-width: 48px;
     width: 48px;
     height: 48px;
@@ -236,18 +236,18 @@
     font-size: 18px;
 }
 
-.seo-contact-title {
+.service-detail-contact-title {
     color: #ffffff;
     font-size: 15px;
     font-weight: 700;
 }
 
-.seo-contact-title-link {
+.service-detail-contact-title-link {
     color: #ffffff;
     text-decoration: none;
 }
 
-.seo-contact-value {
+.service-detail-contact-value {
     color: #858585;
     font-size: 14px;
 }
@@ -255,14 +255,14 @@
 
 /* FORM */
 
-.seo-form-box {
+.service-detail-form-box {
     background: #0d0d0d;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 20px;
     padding: 30px;
 }
 
-.seo-form-control {
+.service-detail-form-control {
     background: #080808 !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     color: #ffffff !important;
@@ -271,22 +271,22 @@
     box-shadow: none !important;
 }
 
-.seo-form-control::placeholder {
+.service-detail-form-control::placeholder {
     color: #707070;
 }
 
-.seo-form-control:focus {
+.service-detail-form-control:focus {
     background: #080808 !important;
     border-color: #8b5cf6 !important;
     color: #ffffff !important;
     box-shadow: none !important;
 }
 
-.seo-form-textarea {
+.service-detail-form-textarea {
     resize: vertical;
 }
 
-.seo-submit-btn {
+.service-detail-submit-btn {
     border: 0;
     background: #8b5cf6;
     color: #050505;
@@ -299,7 +299,7 @@
         opacity 0.3s ease;
 }
 
-.seo-submit-btn:hover {
+.service-detail-submit-btn:hover {
     transform: translateY(-3px);
     opacity: 0.9;
 }
